@@ -41,7 +41,7 @@ check_files:
     - ls -la
     - test -f Vagrantfile
     - test -f docker-compose.yaml
-    - echo "Файлы из задания присутствуют!"'
+    - echo "Файлы из задания присутствуют!"
 '''
 
 ![passed runner](/images/pipline.jpg)
