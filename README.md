@@ -31,7 +31,8 @@
 
 ### Ответ
 
-'stages:
+'''
+stages:
    check
 check_files:
   stage: check
@@ -41,7 +42,7 @@ check_files:
     - test -f Vagrantfile
     - test -f docker-compose.yaml
     - echo "Файлы из задания присутствуют!"'
-
+'''
 
 ![passed runner](/images/pipline.jpg)
 
