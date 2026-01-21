@@ -32,8 +32,7 @@
 ### Ответ
 
 'stages:
-  - check
-
+   check
 check_files:
   stage: check
   image: alpine:latest
